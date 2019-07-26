@@ -24,24 +24,31 @@
         /// </summary>
         private void InitializeComponent() {
             this.dashboardDesigner1 = new DevExpress.DashboardWin.DashboardDesigner();
+            ((System.ComponentModel.ISupportInitialize)(this.dashboardDesigner1)).BeginInit();
             this.SuspendLayout();
             // 
             // dashboardDesigner1
             // 
-            this.dashboardDesigner1.CustomDBSchemaProvider = null;
+            this.dashboardDesigner1.AllowMaximizeAnimation = true;
+            this.dashboardDesigner1.AllowMaximizeDashboardItems = true;
+            this.dashboardDesigner1.AllowPrintDashboard = true;
+            this.dashboardDesigner1.AllowPrintDashboardItems = true;
+            this.dashboardDesigner1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.dashboardDesigner1.Appearance.Options.UseBackColor = true;
             this.dashboardDesigner1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dashboardDesigner1.Location = new System.Drawing.Point(0, 0);
             this.dashboardDesigner1.Name = "dashboardDesigner1";
-            this.dashboardDesigner1.Size = new System.Drawing.Size(824, 497);
+            this.dashboardDesigner1.Size = new System.Drawing.Size(834, 499);
             this.dashboardDesigner1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(824, 497);
+            this.ClientSize = new System.Drawing.Size(834, 499);
             this.Controls.Add(this.dashboardDesigner1);
             this.Name = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dashboardDesigner1)).EndInit();
             this.ResumeLayout(false);
 
         }
