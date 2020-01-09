@@ -5,7 +5,7 @@
     <SqlDataSource Name="SQL Data Source 1" ComponentName="dashboardSqlDataSource1">
       <Connection Name="nwind" ProviderKey="Access97">
         <Parameters>
-          <Parameter Name="database" Value="C:\Users\zaitsev\source\repos\winforms-dashboard-designer-how-to-customize-a-data-store-schema-for-sql-data-sources-e5051\CS\Dashboard_CustomSchemaProvider\Data\nwind.mdb" />
+          <Parameter Name="database" Value="Data\nwind.mdb" />
           <Parameter Name="read only" Value="1" />
           <Parameter Name="generateConnectionHelper" Value="false" />
           <Parameter Name="userid" Value="" />
